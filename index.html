@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <meta id="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hands-on Project 11-4</title>
+   <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <!-- Head of the Program -->
+   <header>
+      <h1>
+         Hands-on Project 11-4
+      </h1>
+   </header>
+
+   <article>
+      <h2>Address</h2>
+      <form>
+         <!-- set the input page for the address -->
+         <fieldset id="zipset">
+            <label for="zip" id="ziplabel">Postal Code</label>
+            <input id="zip" type="number" />
+         </fieldset>
+
+         <!-- Set the state and city -->
+         <fieldset id="csset">
+            <label for="city" id="citylabel">City</label>
+            <input id="city" type="text" />
+            <label for="state" id="statelabel">State</label>
+            <input id="state" type="text" />
+         </fieldset>
+      </form>
+   </article>
+   <!-- External Javascript that contains the program address functions -->
+   <script src="app.js"></script>
+</body>
+</html>
